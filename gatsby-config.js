@@ -82,9 +82,15 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
+    }, // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-auth0",
+      options: {
+        domain: "yourdomain.auth0.com",
+        clientId: "s0m3r4nd0mCh4raCT3rZ",
+      },
+    },
   ],
 }
