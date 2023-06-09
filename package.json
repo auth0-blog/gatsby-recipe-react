@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^1.0.0",
-    "gatsby": "^2.19.45",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-feed": "^2.3.29",
     "gatsby-plugin-google-analytics": "^2.1.38",
